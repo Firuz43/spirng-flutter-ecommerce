@@ -2,14 +2,14 @@ package com.example.ecommerce.model;
 
 
 public class Product {
-    private int id;
+    private Long id;
     private String name;
     private double price;
     private String description;
     private String imageUrl;
 
 
-    public Product(int id, String name, double price, description, imageUrl) {
+    public Product(Long id, String name, double price, String description, String imageUrl) {
         this.id = id;
         this.name = name;
         this.price = price;
@@ -17,7 +17,7 @@ public class Product {
         this.imageUrl = imageUrl;
     } 
 
-    public int getId() {
+    public Long getId() {
         return id;
     }
 
