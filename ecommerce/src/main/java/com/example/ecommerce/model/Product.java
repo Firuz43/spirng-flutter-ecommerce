@@ -33,6 +33,7 @@ public class Product {
         return description;
     }
 
+    //
     private String getImageUrl() {
         return imageUrl;
     }
