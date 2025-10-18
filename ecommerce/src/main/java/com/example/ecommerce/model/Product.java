@@ -8,6 +8,7 @@ public class Product {
     private String description;
     private String imageUrl;
 
+    public Product() {}
 
     public Product(Long id, String name, double price, String description, String imageUrl) {
         this.id = id;
@@ -34,7 +35,7 @@ public class Product {
     }
 
     /////
-    private String getImageUrl() {
+    public String getImageUrl() {
         return imageUrl;
     }
 }
